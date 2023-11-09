@@ -1,0 +1,64 @@
+\documentclass[conference, twocolumn]{IEEEtran} % Replace onecolumn with twocolumn if needed
+\input{setup/preamble}
+\input{setup/acronym}
+
+% Swedish language package 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[swedish,english]{babel}
+
+% Graphics
+\usepackage{graphicx, float, subfigure, blindtext}
+
+% \newcommand\IEEEhyperrefsetup{
+% bookmarks=true,bookmarksnumbered=true,%
+% colorlinks=true,linkcolor={black},citecolor={black},urlcolor={black}%
+% }
+
+% Preferred hyperref setup, Michael Shell
+% \usepackage[\IEEEhyperrefsetup, pdftex]{hyperref}
+
+% Maths
+\usepackage{mathtools}
+
+% These packages must be at the end
+\usepackage[nolist,nohyperlinks]{acronym}
+\usepackage{cleveref}
+\graphicspath{{images/}}
+
+% Remove section first paragraph indent
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{*1}{*1}
+\titlespacing*{\subsection}{0pt}{*1}{*1}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}}
+\titleformat{\subsubsection}[runin]{\itshape}{\thesubsubsection)}{1em}{}[:]
+\titlespacing*{\subsubsection}{\parindent}{0pt}{*1}
+
+% Include authors
+\input{setup/author}
+
+% The report title.
+\title{Report Title Here\\
+Mälardalen University}
+
+% Document begins here
+\begin{document}
+
+    % Create the title.
+    \maketitle
+    % Example sections, name them
+    according to specific needs.
+    \input{sections/abstract}
+    \input{sections/keywords}
+    \input{sections/introduction}
+    \input{sections/method}
+    \input{sections/result}
+    \input{sections/discussion}
+    \input{sections/conclusion}
+    \input{sections/acknowledgement}
+    % Select the IEEEtran style
+    \bibliographystyle{IEEEtran}
+    % Include bibliography file
+    \bibliography{IEEEabrv, refs}
+
+\end{document}
