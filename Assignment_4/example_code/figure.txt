@@ -1,0 +1,6 @@
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/Ass1Q5RM.png}
+    \caption{Tracing of the task set with RM scheduling does not work as seen in the figure. The red arrows in the figure indicate the deadlines/period for the tasks.}
+    \label{fig:Q5RMtrace}
+\end{figure}
