@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex main"] 1704377932 "main.aux" "main.bbl" "main" 1704382469 0
+["bibtex main"] 1704450008 "main.aux" "main.bbl" "main" 1704450453 0
   "./refs.bib" 1704377931 502 fe59d481c5b1d62b6e8dc2e461a4e2d3 ""
   "c:/texlive/2023/texmf-dist/bibtex/bib/ieeetran/IEEEabrv.bib" 1702032844 20898 a5d2167c380db7dfff810b085c77ed63 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1702032844 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1704382468 601 19d872d0b6748e1efe0307a5c42a94e7 "pdflatex"
+  "main.aux" 1704450452 939 fe1f21bf6e568ebca65491fbe368ebec "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1704382467 "c:/Users/emilb/OneDrive - Mälardalens universitet/Flyg- & Rymdsystem/DVA/DVA437 - Personal/Assignment_4/main.tex" "main.pdf" "main" 1704382469 0
+["pdflatex"] 1704450451 "c:/Users/emilb/OneDrive - Mälardalens universitet/Flyg- & Rymdsystem/DVA/DVA437 - Personal/Assignment_4/main.tex" "main.pdf" "main" 1704450453 0
   "IEEEtran.cls" 1702973789 288400 e00b8c23cb0ef3d6e7402bbd8b7e5f22 ""
-  "c:/Users/emilb/OneDrive - Mälardalens universitet/Flyg- & Rymdsystem/DVA/DVA437 - Personal/Assignment_4/main.tex" 1704365374 1772 1f08b2dfe1998b4ab134f5851d36a15b ""
+  "c:/Users/emilb/OneDrive - Mälardalens universitet/Flyg- & Rymdsystem/DVA/DVA437 - Personal/Assignment_4/main.tex" 1704449537 1777 65c9df0b529c24695d8ee729365dfb39 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1702032503 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1702032674 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1702033847 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -81,11 +81,11 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1702034097 4589414 f4579d0d102ae8e521958b9ca792d4b2 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1702034181 7146139 7fa66256f3b27ba8b2c6b57290467f1e ""
   "c:/texlive/2023/texmf.cnf" 1702034082 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1704382468 601 19d872d0b6748e1efe0307a5c42a94e7 "pdflatex"
-  "main.bbl" 1704377932 1276 0edd735e6e06fdac84433ad47c707649 "bibtex main"
-  "main.tex" 1704365374 1772 1f08b2dfe1998b4ab134f5851d36a15b ""
-  "sections/relatedwork.tex" 1704382466 2632 62623accf57baa12aa4282dad2510966 ""
-  "setup/acronym.tex" 1702973789 268 69651215a79bf526305c9e6b7c4c4655 ""
+  "main.aux" 1704450452 939 fe1f21bf6e568ebca65491fbe368ebec "pdflatex"
+  "main.bbl" 1704450008 1276 0edd735e6e06fdac84433ad47c707649 "bibtex main"
+  "main.tex" 1704449537 1777 65c9df0b529c24695d8ee729365dfb39 ""
+  "sections/relatedwork.tex" 1704450450 2592 490ade251bcb50a17be1ca259fb21ec3 ""
+  "setup/acronym.tex" 1704447170 315 e76945d067d3bce22db706d761c53cfa ""
   "setup/author.tex" 1704361889 273 2176a8056a5643966c5fcb107cabbc3f ""
   "setup/preamble.tex" 1702973789 1289 43bb6abc4555cbaa102c8aa4d821874c ""
   (generated)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.8)  4 JAN 2024 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.8)  5 JAN 2024 11:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,8 +401,11 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./sections/relatedwork.tex) (./main.bbl
-Underfull \vbox (badness 1348) has occurred while \output is active []
+)) (./sections/relatedwork.tex
+Package acronym Info: Label `acro:gsn' newly defined as it shall be overridden
+although it is yet undefined on input line 2.
+) (./main.bbl
+Underfull \vbox (badness 3701) has occurred while \output is active []
 
 )
 
@@ -421,15 +424,15 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8584 strings out of 477344
- 150770 string characters out of 5821787
- 1859382 words of memory out of 5000000
- 28723 multiletter control sequences out of 15000+600000
+ 8592 strings out of 477344
+ 150861 string characters out of 5821787
+ 1860382 words of memory out of 5000000
+ 28731 multiletter control sequences out of 15000+600000
  610183 words of font info for 118 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
- 75i,8n,79p,1342b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,2361b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 33579 bytes).
+Output written on main.pdf (1 page, 33725 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
