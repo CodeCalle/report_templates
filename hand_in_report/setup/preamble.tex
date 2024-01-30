@@ -15,6 +15,11 @@
 % Konstigt
 % \usepackage[\IEEEhyperrefsetup, pdftex]{hyperref}
 
+% \newcommand\IEEEhyperrefsetup{
+% bookmarks=true,bookmarksnumbered=true,%
+% colorlinks=true,linkcolor={black},citecolor={black},urlcolor={black}%
+% }
+
 \newcommand\IEEEhyperrefsetup{
 bookmarks=true,bookmarksnumbered=true,%
 colorlinks=true,linkcolor={black},citecolor={black},urlcolor={black}%
@@ -28,6 +33,13 @@ colorlinks=true,linkcolor={black},citecolor={black},urlcolor={black}%
 
 \usepackage{float}
 
+% Remove section first paragraph indent
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{*1}{*1}
+\titlespacing*{\subsection}{0pt}{*1}{*1}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}}
+\titleformat{\subsubsection}[runin]{\itshape}{\thesubsubsection)}{1em}{}[:]
+\titlespacing*{\subsubsection}{\parindent}{0pt}{*1}
 
 % Preferred hyperref setup, Michael Shell
 % \usepackage[\IEEEhyperrefsetup, pdftex]{hyperref}
